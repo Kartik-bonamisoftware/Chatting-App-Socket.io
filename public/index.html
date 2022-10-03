@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="../../" />
+  </head>
+
+  <body style="background: rgb(110, 108, 108)">
+    <div class="centered-form" style="position: absolute; top: 50%; left: 50%">
+      <div
+        class="centered-form__box"
+        style="
+          width: 450px;
+          height: 300px;
+          background: rgb(255, 255, 255);
+          display: flex;
+        "
+      >
+        <h1>Join</h1>
+        <form
+          action="chat.html"
+          style="position: absolute; top: 90px; left: 70px"
+        >
+          <label>Display Name</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Display Name"
+            required
+          />
+          <br />
+          <label>Room</label>
+          <input type="text" name="room" placeholder="Room" required />
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+  </body>
+</html>
